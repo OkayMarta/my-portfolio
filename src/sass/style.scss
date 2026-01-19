@@ -1,0 +1,21 @@
+// Конфігурація (змінні, міксини)
+@use "base/variables";
+@use "base/mixins";
+
+// Бібліотеки
+@use "libs/bootstrap-reboot.min";
+
+// Блоки
+@use "blocks/promo";
+@use "blocks/title";
+@use "blocks/button";
+@use "blocks/sidepanel";
+
+// Глобальні стилі
+body {
+	font-family: "Poppins", sans-serif;
+}
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
