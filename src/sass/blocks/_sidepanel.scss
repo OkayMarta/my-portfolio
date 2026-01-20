@@ -1,5 +1,7 @@
+@use "../base/variables" as *;
+
 .sidepanel {
-	color: #fff;
+	color: $white;
 	position: fixed;
 	top: 200px;
 	left: 50px;
@@ -19,7 +21,7 @@
 	&__divider {
 		width: 2px;
 		height: 70px;
-		background-color: #fff;
+		background-color: $white;
 	}
 
 	&__text {

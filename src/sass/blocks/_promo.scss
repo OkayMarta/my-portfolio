@@ -2,7 +2,7 @@
 @use "../base/mixins" as *;
 
 .promo {
-	color: #fff;
+	color: $white;
 	min-height: 100vh;
 	position: relative;
 	background: url("../../img/main_bg.jpg") no-repeat 50% / cover;
@@ -29,11 +29,13 @@
 
 	&__link {
 		font-weight: bold;
-		color: #fff;
+		color: $white;
+		text-decoration: none;
+		transition: color 0.2s ease;
 
 		&:hover {
 			text-decoration: none;
-			color: #fff;
+			color: $main-color;
 		}
 	}
 }
