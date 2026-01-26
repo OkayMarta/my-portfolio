@@ -32,3 +32,10 @@ window.addEventListener("scroll", checkScroll);
 
 // Викликаємо один раз при завантаженні (на випадок, якщо сторінку оновили посередині)
 checkScroll();
+
+const counters = document.querySelectorAll(".skills__ratings-title"),
+	lines = document.querySelectorAll(".skills__ratings-line span");
+
+counters.forEach((item, i) => {
+	lines[i].style.width = item.innerHTML;
+});
