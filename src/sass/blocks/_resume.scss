@@ -4,21 +4,6 @@
 .resume {
 	padding-top: 120px;
 
-	&__title {
-		position: relative;
-		text-align: center;
-		@include before_circle;
-		&:before {
-			top: -6px;
-			left: 50%;
-			transform: translateX(-50%);
-		}
-	}
-
-	&__subtitle {
-		text-align: center;
-	}
-
 	&__wrapper {
 		display: grid; // Grid для можливих 2ох колонок у майбутньому
 		grid-template-columns: repeat(

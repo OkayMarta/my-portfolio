@@ -1,0 +1,53 @@
+@use "../base/mixins" as *;
+@use "../base/variables" as *;
+
+.portfolio {
+	padding-top: 120px;
+
+	&__wrapper {
+		margin-top: 60px;
+		padding: 0 60px;
+		display: grid;
+		grid-template: repeat(2, minmax(45px, auto)) / repeat(2, 365px);
+		grid-auto-rows: minmax(45px, auto);
+		row-gap: 15px;
+		justify-content: space-between;
+	}
+
+	&__item {
+		position: relative;
+		padding-left: 25px;
+
+		&:before {
+			content: "";
+			width: 15px;
+			height: 15px;
+			background-color: $main-color;
+			border-radius: 100%;
+			position: absolute;
+			top: 5px;
+			left: -10px;
+		}
+
+		&-name {
+			font-size: 14px;
+			font-weight: bold;
+			line-height: 21px;
+			color: $black;
+			transition: color 0.2s ease;
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: none;
+				color: $main-color;
+			}
+		}
+
+		&-description {
+			padding-top: 5px;
+			margin-bottom: 0px;
+			font-size: 12px;
+			line-height: 18px;
+		}
+	}
+}
