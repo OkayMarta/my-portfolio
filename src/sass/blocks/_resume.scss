@@ -10,7 +10,7 @@
 			1,
 			1fr
 		); // змінити на `repeat(2, 1fr)` для 2ох
-		column-gap: 135 px;
+		// column-gap: 135 px;
 		padding: 60px 250px 0 250px;
 	}
 
@@ -44,6 +44,10 @@
 		li {
 			position: relative;
 			margin-bottom: 45px;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
 
 			// Горизонтальна лінія (відгалуження)
 			&:before {
