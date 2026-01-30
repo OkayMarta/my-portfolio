@@ -53,6 +53,12 @@
 			}
 		}
 	}
+
+	.resume {
+		&__wrapper {
+			padding: 60px 10px 0 10px;
+		}
+	}
 }
 
 @media (max-width: 768px) {
@@ -95,6 +101,15 @@
 
 		&_fz36 {
 			font-size: 24px;
+			line-height: 36px;
+		}
+
+		&__section-title {
+			margin-bottom: 0;
+		}
+
+		&__section-subtitle {
+			margin-top: 26px;
 		}
 	}
 
@@ -111,6 +126,10 @@
 		&__link {
 			font-size: 23px;
 		}
+	}
+
+	.divider {
+		margin: 13px auto 0 auto;
 	}
 
 	.promo {
@@ -132,6 +151,34 @@
 
 		&__skills {
 			grid-template-columns: 1fr;
+		}
+
+		&__subtitle {
+			margin-top: 25px;
+			margin-bottom: 14px;
+		}
+	}
+
+	.resume {
+		padding-top: 52px;
+
+		&__wrapper {
+			padding: 40px 0 0 0;
+			column-gap: 40px;
+		}
+
+		&__column {
+			ul {
+				padding: 45px 0 0 0;
+			}
+		}
+
+		&__item {
+			&-head {
+				height: auto;
+				min-height: auto;
+				margin-bottom: 10px;
+			}
 		}
 	}
 }
