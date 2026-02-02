@@ -5,7 +5,7 @@
 
 Welcome to the repository of my personal portfolio website. This project was developed as a part of a **Web-Development** course on _Udemy_. It serves as an interactive digital resume where I showcase my skills, education, and pet projects.
 
-🔗 **[Live Demo](#)**
+🔗 **[Live Demo](https://okaymarta.github.io/my-portfolio/)**
 
 ## 📖 About The Project
 
