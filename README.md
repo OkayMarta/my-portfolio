@@ -3,9 +3,9 @@
 ![Project Status](https://img.shields.io/badge/Status-Completed-success)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
-Welcome to the repository of my personal portfolio website. This project was developed as a part of a **Web Development (Frontend)** course. It serves as an interactive digital resume where I showcase my skills, education, and pet projects.
+Welcome to the repository of my personal portfolio website. This project was developed as a part of a **Web-Development** course on _Udemy_. It serves as an interactive digital resume where I showcase my skills, education, and pet projects.
 
-🔗 **[Live Demo](#)** _(Replace this hash with your Netlify/Vercel/GitHub Pages link)_
+🔗 **[Live Demo](#)**
 
 ## 📖 About The Project
 
@@ -83,6 +83,10 @@ To run this project locally on your machine, you need [Node.js](https://nodejs.o
     ```bash
     npm run build
     ```
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
 
 ## 📬 Contact Me
 
