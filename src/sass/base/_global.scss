@@ -1,6 +1,9 @@
 @use "variables" as *;
 
 // Глобальні стилі
+html {
+	scroll-behavior: smooth;
+}
 body {
 	font-family: "Poppins", sans-serif;
 }

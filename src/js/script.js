@@ -39,3 +39,9 @@ const counters = document.querySelectorAll(".skills__ratings-counter"),
 counters.forEach((item, i) => {
 	lines[i].style.width = item.innerHTML;
 });
+
+document.querySelectorAll(".menu__link a").forEach((link) => {
+	link.addEventListener("click", () => {
+		document.querySelector(".menu").classList.remove("active");
+	});
+});
