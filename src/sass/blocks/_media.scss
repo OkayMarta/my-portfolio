@@ -111,6 +111,16 @@
 		}
 	}
 
+	.portfolio {
+		padding-top: 80px;
+
+		&__wrapper {
+			padding: 0;
+			grid-template-columns: repeat(auto-fit, 345px);
+			margin-top: 35px;
+		}
+	}
+
 	.hobbies {
 		padding-top: 80px;
 	}
@@ -155,6 +165,14 @@
 
 		&__wrapper {
 			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+
+	.portfolio {
+		padding-top: 60px;
+
+		&__wrapper {
+			justify-content: center;
 		}
 	}
 
@@ -280,6 +298,20 @@
 			&-line {
 				width: 100%;
 			}
+		}
+	}
+
+	.portfolio {
+		&__wrapper {
+			margin-top: 21px;
+			grid-template-columns: repeat(auto-fit, 280px);
+		}
+	}
+
+	.hobbies {
+		&__wrapper {
+			margin-top: 21px;
+			row-gap: 21px;
 		}
 	}
 }
