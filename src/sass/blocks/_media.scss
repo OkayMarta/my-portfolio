@@ -32,6 +32,21 @@
 			justify-content: center;
 		}
 	}
+
+	.hobbies {
+		&__wrapper {
+			grid-template-columns: repeat(auto-fit, 280px);
+			grid-auto-rows: 280px;
+			justify-content: space-around;
+			row-gap: 35px;
+
+			.horizontal,
+			.vertical {
+				grid-row: unset;
+				grid-column: unset;
+			}
+		}
+	}
 }
 
 @media (max-width: 992px) {
@@ -67,7 +82,7 @@
 		padding-top: 80px;
 
 		&__wrapper {
-			padding: 40px 10px 0 10px;
+			padding: 35px 10px 0 10px;
 		}
 	}
 
@@ -75,7 +90,7 @@
 		padding-top: 80px;
 
 		&__wrapper {
-			padding: 40px 10px 0 10px;
+			padding: 35px 10px 0 10px;
 			grid-template-columns: repeat(3, 1fr);
 		}
 
@@ -95,6 +110,10 @@
 			}
 		}
 	}
+
+	.hobbies {
+		padding-top: 80px;
+	}
 }
 
 @media (max-width: 768px) {
@@ -102,8 +121,12 @@
 		max-width: 540px;
 	}
 
+	.promo {
+		padding-top: 60px;
+	}
+
 	.about {
-		padding-top: 40px;
+		padding-top: 60px;
 
 		&__wrapper {
 			grid-template: 340px auto auto / 1fr;
@@ -123,9 +146,23 @@
 		}
 	}
 
+	.resume {
+		padding-top: 60px;
+	}
+
 	.skills {
+		padding-top: 60px;
+
 		&__wrapper {
 			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+
+	.hobbies {
+		padding-top: 60px;
+
+		&__wrapper {
+			margin-top: 35px;
 		}
 	}
 }
@@ -187,8 +224,6 @@
 	}
 
 	.about {
-		padding-top: 60px;
-
 		&__wrapper {
 			grid-template: 340px auto auto / 1fr;
 		}
@@ -204,8 +239,6 @@
 	}
 
 	.resume {
-		padding-top: 60px;
-
 		&__wrapper {
 			padding: 21px 0 0 0;
 			column-gap: 40px;
@@ -231,8 +264,6 @@
 	}
 
 	.skills {
-		padding-top: 60px;
-
 		&__wrapper {
 			padding: 21px 17px 0 17px;
 			grid-template-columns: repeat(1, 1fr);
@@ -247,7 +278,6 @@
 			}
 
 			&-line {
-				// 3. Лінія має підлаштовуватись під ширину екрану
 				width: 100%;
 			}
 		}
